@@ -9,7 +9,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/ISA-tools/isa-api/
 wget --no-check-certificate https://raw.githubusercontent.com/ISA-tools/isa-api/master/tests/data/tab/BII-I-1/a_proteome.txt -P /tmp/
 wget --no-check-certificate https://raw.githubusercontent.com/ISA-tools/isa-api/master/tests/data/tab/BII-I-1/a_transcriptome.txt -P /tmp/
 
-python3 run_tab2json.py /tmp/
+run_tab2json.py /tmp/
 
 # check that files were created
 if ! [ -e "/output.json" ]; then
