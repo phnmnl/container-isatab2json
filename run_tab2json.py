@@ -11,6 +11,7 @@ try:
 except ImportError as e:
     raise RuntimeError("Could not import isatools package")
 shutil.unpack_archive(filename=src_zip, extract_dir='/tmp/')
+print(os.listdir('/tmp/'))
 if not os.path.exists('/tmp/'):
     print("File path to ISA-Tab files {} does not exist".format('/tmp/'))
     sys.exit(0)
