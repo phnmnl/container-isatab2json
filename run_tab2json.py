@@ -16,5 +16,5 @@ if not os.path.exists('/tmp/'):
     sys.exit(0)
 
 my_json = isatab2json.convert('/tmp/')
-with open("out.json", 'w') as out_fp:
+with open("/out.json", 'w') as out_fp:
     json.dump(my_json, out_fp)
