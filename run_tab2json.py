@@ -10,7 +10,7 @@ try:
     from isatools.convert import isatab2json
 except ImportError as e:
     raise RuntimeError("Could not import isatools package")
-shutil.unpack_archive(src_zip, '/tmp/')
+shutil.unpack_archive(filename=src_zip, extract_dir='/tmp/')
 if not os.path.exists('/tmp/'):
     print("File path to ISA-Tab files {} does not exist".format('/tmp/'))
     sys.exit(0)
