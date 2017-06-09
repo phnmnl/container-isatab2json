@@ -12,7 +12,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/ISA-tools/ISAdatas
 run_tab2json.py /tmp/
 
 # check that files were created
-if ! [ -e "/output.json" ]; then
+if ! [ -e "/out.json" ]; then
 	echo "Output ISA JSON file doesn't exist"
 	exit 1
 fi
