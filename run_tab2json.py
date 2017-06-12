@@ -16,7 +16,7 @@ if not os.path.exists('/tmp/'):
     print("File path to ISA-Tab files {} does not exist".format('/tmp/'))
     sys.exit(0)
 
-my_json = isatab2json.convert('/tmp/')
+my_json = isatab2json.convert(work_dir='/tmp/', validate_first=False, use_new_parser=True)
 with open("/out.json", 'w') as out_fp:
     json.dump(my_json, out_fp)
     with open("/out.json") as j_fp:
