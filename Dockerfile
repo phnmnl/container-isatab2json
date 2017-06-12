@@ -10,7 +10,7 @@ LABEL software="isatab2json"
 RUN apt-get update && apt-get install -y --no-install-recommends python3-pip && \
     pip3 install --upgrade pip && \
     pip3 install -U setuptools && \
-    pip3 install isatools==0.5.0 && \
+    pip3 install isatools==0.8.0 && \
     apt-get purge -y python3-pip gcc libxml2-dev libxslt-dev python3-lxml && \
     apt-get install --no-install-recommends python3 && \
     apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
