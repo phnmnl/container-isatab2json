@@ -13,6 +13,8 @@ except ImportError as e:
 print("src_zip = " + src_zip)
 shutil.unpack_archive(filename=src_zip)
 
+print(os.getcwd(), os.listdir(os.getcwd()))
+
 my_json = isatab2json.convert(work_dir='/', validate_first=False, use_new_parser=True)
 with open("/out.json", 'w') as out_fp:
     json.dump(my_json, out_fp)
