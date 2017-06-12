@@ -3,8 +3,8 @@ FROM ubuntu:16.04
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
 LABEL Description="Convert ISA-Tab to ISA JSON file"
-LABEL software.version="0.5.0"
-LABEL version="0.1"
+LABEL software.version="0.8.0"
+LABEL version="0.2"
 LABEL software="isatab2json"
 
 RUN apt-get update && apt-get install -y --no-install-recommends python3-pip && \
