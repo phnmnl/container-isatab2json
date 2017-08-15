@@ -29,7 +29,7 @@ Zip file containing ISA files
 =============================
 The input zip file must contain the i_*.txt, s_*.txt and a_*.txt files expected in an *ISA-Tab* archive.
 
-For details on the ISA-JSON format, please see http://isa-specs.readthedocs.io/en/latest/isatab.html
+For details on the ISA-Tab format, please see http://isa-specs.readthedocs.io/en/latest/isatab.html
 
 .. class:: warningmark
 
