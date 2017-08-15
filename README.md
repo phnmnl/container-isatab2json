@@ -50,7 +50,7 @@ docker pull docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json
 For direct docker usage:
 
 ```bash
-docker run docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json <path_to_isatab_zip>
+docker run docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json &lt;path_to_isatab_zip&gt;
 ```
 
 ## Publications
