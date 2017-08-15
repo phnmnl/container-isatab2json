@@ -20,10 +20,6 @@ converter takes a valid ISA-Tab formatted set of files and converts them into a 
 
 - Other Tools
 
-## Approaches
-  
-## Instrument Data Types
-
 ## Tool Authors
 
 - [ISA Team](http://isa-tools.org)
@@ -60,4 +56,4 @@ docker run docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json <path_to_isata
 ## Publications
 
 - Sansone, Susanna-Assunta, Rocca-Serra, Philippe, Gonzalez-Beltran, Alejandra, Johnson, David, &amp; ISA Community. (2016, October 28). ISA Model and Serialization Specifications 1.0. Zenodo. http://doi.org/10.5281/zenodo.163640
-- Sansone, Susanna-Assunta, et al. (2012, January 27). Towards interoperable bioscience data. Nature Genetics 44, 121–126. http://doi:10.1038/ng.1054
+- Sansone, Susanna-Assunta, et al. (2012, January 27). Towards interoperable bioscience data. Nature Genetics 44, 121–126. http://doi.org/10.1038/ng.1054
