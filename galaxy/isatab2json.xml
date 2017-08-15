@@ -6,7 +6,7 @@
   ]]>
   </command>
   <inputs>
-      <param name="isa_file" type="data" format="zip" label="Zip file containing ISA files." optional="false" help="The input zip file must contain the i_*.txt, s_*.txt and a_*.txt files expected in an ISA-Tab archive."/>/>
+      <param name="isa_file" type="data" format="zip" label="Zip file containing ISA files." optional="false" help="The input zip file must contain the i_*.txt, s_*.txt and a_*.txt files expected in an ISA-Tab archive."/>
   </inputs>
   <outputs>
     <data format="json" name="output" from_work_dir="out.json" label="ISA content in ISA-JSON format" />
