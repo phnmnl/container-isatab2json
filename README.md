@@ -1,16 +1,23 @@
 ![Logo](isa-api_logo.png)
 
 # isatab2json: ISA-Tab to JSON Converter
-Version: 0.9.4
+Version: 0.9.5
 
 ## Short Description
 
-A container for the `isatab2json` converter from the [ISA-API](http://github.com/ISA-tools/isa-api).
+A container for the `isatab2json` converter from the 
+[ISA-API](http://github.com/ISA-tools/isa-api).
 
 ## Description
 
-The ISA-API is a Python 3 library that can create, manipulate, and convert ISA-formatted content. The `isatab2json`
-converter takes a valid ISA-Tab formatted set of files and converts them into a valid ISA-JSON format document.
+The [ISA-API](http://github.com/ISA-tools/isa-api) is a Python 3 library that 
+can create, manipulate, and convert ISA-formatted content.
+
+The `isatab2json` converter takes a valid 
+[ISA-Tab](http://isa-specs.readthedocs.io/en/latest/isatab.html) formatted set 
+of files and converts them into a valid 
+[ISA-JSON](http://isa-specs.readthedocs.io/en/latest/isajson.html) format 
+document.
 
 ## Key features
 
@@ -61,7 +68,7 @@ docker pull docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json
 For direct docker usage:
 
 ```bash
-docker run docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json <path_to_isatab_zip>
+docker run docker-registry.phenomenal-h2020.eu/phnmnl/isatab2json <path_to_isatab>
 ```
 
 ## Publications
