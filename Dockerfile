@@ -1,9 +1,9 @@
-FROM isatools/isatools:3.6-alpine-0.9.5
+FROM isatools/isatools:3.6-alpine-0.10.0
 
 LABEL maintainer="PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )"
 LABEL description="Convert ISA-Tab to ISA JSON file"
-LABEL software.version="0.9.5"
-LABEL version="0.6"
+LABEL software.version="0.10.0"
+LABEL version="0.6.0"
 LABEL software="isatab2json"
 
 RUN apk add --no-cache --virtual git-deps git openssh \
